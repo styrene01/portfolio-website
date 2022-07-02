@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Component library</title>
+        <!-- way one of styling in css         
+        <style>
+            body {
+                color: royalblue;
+            }
+        </style> -->
+        <!-- 3rd way is external stylesheet -->
+        <link href="style.css" rel="stylesheet" />
+    </head>
+    <body>
+        <!--way 2 of style <h1 style="color: yellowgreen">Harsh's component library</h1> -->
+        <h1>Harsh's component library</h1>
+        <p>I am in my 4th year of engineering and currently learning web development.</p>
+        <hr />
+        <!--<hr/> this tag is used to add that line to divide sections-->
+
+        <h2>@typography</h2>
+        <h1>This is the biggest heading</h1>
+        <h2>This is second biggest heading</h2>
+        <h3>this is third biggest heading</h3>
+        <p>This is a paragraph used to just display normal text. Paragraphs wrap at the end</p>
+        <p>This para will have a <strong>BOLD</strong> text.</p>
+
+        <small>This is small text</small>
+
+        <hr />
+
+        <h2>@container</h2>
+        <h3>fluid container</h3>
+        <div class="container">This is a fluid container and it will go til the end of page</div>
+        <h3>center container</h3>
+        <div class="container container-center">This is a centered container and it will got till the specified width</div>
+
+        <hr />
+        <h2>@links</h2>
+        <a class="link link-primary" href="/">Primary link</a>
+        <a class="link link-secondary" href="/">Secondary link</a>
+
+        <hr />
+        <h2>@lists</h2>
+        <h3>unordered list</h3>
+        <p>Lists will not have bullet</p>
+        <ul class="list-non-bullet">
+            <li>Item one</li>
+            <li>Item two</li>
+            <li>Item three</li>
+        </ul>
+
+        <h3>unordered inline lists</h3>
+        <p>Insted of going in new row, lists will be in column</p>
+        <ul class="list-non-bullet">
+            <li class="list-item-inline">Inline Item one</li>
+            <li class="list-item-inline">Inline Item two</li>
+            <li class="list-item-inline">Inline Item three</li>
+        </ul>
+
+        <h3>Reverse ordered lists</h3>
+        <p>Counting will go in reverse order</p>
+        <ol reversed>
+            <li>three</li>
+            <li>two</li>
+            <li>one</li>
+        </ol>
+
+        <hr />
+        <h2>@nav</h2>
+        <p>Navigation is used on the top of the page and used to get different pages</p>
+        <nav class="navigation container">
+            <div class="nav-brand-name">Harsh Waghela</div>
+            <ul class="list-non-bullet nav-pills">
+                <li class="list-item-inline">
+                    <a class="link link-primary link-active" href="/">Home</a>
+                </li>
+                <li class="list-item-inline">
+                    <a class="link link-primary" href="/">Projects</a>
+                </li>
+                <li class="list-item-inline">
+                    <a class="link link-primary" href="/">Blogs</a>
+                </li>
+            </ul>
+        </nav>
+
+        <hr />
+        <h2>@header</h2>
+        <header class="hero">
+            <img class="hero-image" src="images/header.svg" />
+            <h1 class="hero-heading">I am Harsh Waghela a <span class="heading-inverted">Web developer</span></h1>
+        </header>
+
+        <hr />
+
+        <h2>@section</h2>
+        <section class="section">
+            <div class="container container-center">
+                <h1>white section</h1>
+                <p>This will have white background</p>
+                <p>
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer
+                    took a galley of type and scrambled it to make a type specimen book.
+                </p>
+            </div>
+        </section>
+
+        <section class="section ow">
+            <div class="container container-center">
+                <h1>Off white section</h1>
+                <p>This will have gray background</p>
+                <p>
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer
+                    took a galley of type and scrambled it to make a type specimen book.
+                </p>
+            </div>
+        </section>
+
+        <hr />
+
+        <h2>@footer</h2>
+        <footer class="footer">
+            <div class="footer-header">heading inside footer</div>
+            <ul class="social-links list-non-bullet">
+                <li class="list-item-inline"><a class="link" href="/">socialOne</a></li>
+                <li class="list-item-inline"><a class="link" href="/">socialTwo</a></li>
+                <li class="list-item-inline"><a class="link" href="/">socialThree</a></li>
+            </ul>
+        </footer>
+    </body>
+</html>
