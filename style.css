@@ -4,6 +4,7 @@
 :root {
     --primary-color: #e52165;
     --dark-color: #0d1137;
+    --off-white: #e2e8f0;
     --footer-link: ;
 }
 /* typography */
@@ -117,6 +118,9 @@ hr {
     padding: 2rem;
     font-size: large;
     text-align: center;
+}
+.section h1 {
+    margin: 12px 0px;
 }
 .section h1 .highlight {
     color: var(--primary-color);
