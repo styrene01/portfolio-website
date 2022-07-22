@@ -4,7 +4,6 @@
 :root {
     --primary-color: #e52165;
     --dark-color: #0d1137;
-    --off-white: #e2e8f0;
     --footer-link: ;
 }
 /* typography */
@@ -31,6 +30,8 @@ hr {
 /* links */
 .navigation .link {
     font-weight: lighter;
+    /* border: none; */
+    padding: 7px 15px;
 }
 .link {
     padding: 0.5rem 1rem;
@@ -78,7 +79,7 @@ hr {
 .navigation .nav-pills {
     text-align: right;
     font-size: large;
-    margin: 1rem;
+    margin: 1rem 0rem;
 }
 
 .navigation .link-active {
