@@ -30,13 +30,14 @@ hr {
 
 /* links */
 .navigation .link {
+    margin: 0rem 0rem;
     font-weight: lighter;
     /* border: none; */
     padding: 7px 15px;
 }
 .link {
     padding: 0.5rem 1rem;
-    margin: 0rem 0.5rem;
+    /* margin: 0rem 0.15rem; */
     text-decoration: none;
     font-weight: bold;
 }
