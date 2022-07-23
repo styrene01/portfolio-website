@@ -36,6 +36,7 @@ hr {
 }
 .link {
     padding: 0.5rem 1rem;
+    margin: 0rem 0.5rem;
     text-decoration: none;
     font-weight: bold;
 }
